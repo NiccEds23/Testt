@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingBottom="15dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp"
+    android:orientation="vertical"
+    tools:context=".KalkulatorActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Kalkulator"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/Input1"
+        android:layout_width="320dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Inputan 1"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/Input2"
+        android:layout_width="318dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Inputan 2"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/buttonTambah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="45dp"
+        android:text="+"/>
+
+    <Button
+        android:id="@+id/buttonKali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="45dp"
+        android:text="*"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <Button
+        android:id="@+id/buttonKurang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="-115dp"
+        android:layout_marginRight="45dp"
+        android:text="-"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <Button
+        android:id="@+id/buttonBagi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="45dp"
+        android:text="/"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="45dp"
+        android:text="Hasil"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/HasilCal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="-40dp"
+        android:layout_marginRight="60dp"
+        android:text="..."
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/buttonKembali"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Kembali"
+        android:textSize="15dp" />
+</LinearLayout>

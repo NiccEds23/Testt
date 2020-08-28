@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingBottom="15dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp"
+    android:orientation="vertical"
+    tools:context=".ProfilActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="PROFIL SAYA"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/textNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="Nicholas Edson S"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/textNPM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="180709990"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/textFakultas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="Teknologi Industri"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/textProdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="Prodi"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"/>
+
+    <Button
+        android:id="@+id/buttonKembali"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Kembali"
+        android:textSize="15dp"/>
+</LinearLayout>
